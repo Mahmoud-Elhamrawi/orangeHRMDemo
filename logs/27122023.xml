@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1703684657625,974,GetLandingPage,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,true,,107679,1,1,0,1,0,DESKTOP-9O9V44P
+1703684658603,3461,saveLogin,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,true,,131033,1,1,0,1,0,DESKTOP-9O9V44P
+1703684664600,3561,navigateToRecruitment _#__threadNum),200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,true,,145300,1,1,0,1,0,DESKTOP-9O9V44P
+1703684668164,3996,navigateToVacancy,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,true,,253772,1,1,0,1,0,DESKTOP-9O9V44P
+1703684672168,0,saveVacancy,,,Thread Group 1-1,true,,0,1,1,0,1,0,DESKTOP-9O9V44P

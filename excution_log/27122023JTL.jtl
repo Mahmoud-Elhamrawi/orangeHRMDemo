@@ -1,0 +1,139 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1703684810506,2149,GetLandingPage,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,107676,1547,1,1,null,0,100,1360
+1703684810597,1620,GetLandingPage-1,200,OK,Thread Group 1-1,text,true,,4581,489,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,1619,0,1360
+1703684812223,448,GetLandingPage-2,200,OK,Thread Group 1-1,text,true,,101707,538,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,279,0,0
+1703684812674,81,GetLandingPage-4,200,OK,Thread Group 1-1,text,true,,1388,520,1,1,https://opensource-demo.orangehrmlive.com/web/dist/img/blob.svg,81,0,0
+1703684812756,3450,saveLogin,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,131041,7750,1,1,null,0,2007,0
+1703684814740,825,saveLogin-12,200,OK,Thread Group 1-1,text,true,,9486,1626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,541,0,0
+1703684814740,542,saveLogin-12-0,302,Found,Thread Group 1-1,text,true,,1786,896,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,541,0,0
+1703684815285,280,saveLogin-12-1,200,OK,Thread Group 1-1,text,true,,7700,730,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,280,0,0
+1703684815568,266,saveLogin-13,200,OK,Thread Group 1-1,text,true,,7700,630,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,266,0,0
+1703684815837,445,saveLogin-14,200,OK,Thread Group 1-1,text,true,,101754,543,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,211,0,0
+1703684816286,254,saveLogin-16,200,OK,Thread Group 1-1,text,true,,2242,672,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=2&currentDate=2023-12-27&currentTime=15%3A46,253,0,0
+1703684816541,244,saveLogin-17,200,OK,Thread Group 1-1,text,true,,1218,614,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/action-summary,244,0,0
+1703684816787,217,saveLogin-20,200,OK,Thread Group 1-1,text,true,,1242,599,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/shortcuts,217,0,0
+1703684817006,233,saveLogin-19,200,OK,Thread Group 1-1,text,true,,1125,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/leaves?date=2023-12-27,233,0,0
+1703684817241,243,saveLogin-18,200,OK,Thread Group 1-1,text,true,,1442,607,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/subunit,243,0,0
+1703684817486,229,saveLogin-21,200,OK,Thread Group 1-1,text,true,,1394,609,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/locations,229,0,0
+1703684817717,281,saveLogin-23,200,OK,Thread Group 1-1,text,true,,2377,588,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/buzz/feed?limit=5&offset=0&sortOrder=DESC&sortField=share.createdAtUtc,281,0,0
+1703684818000,213,saveLogin-22,200,OK,Thread Group 1-1,text,true,,1061,640,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/events/push,213,0,0
+1703684818214,3523,navigateToRecruitment ,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,145300,8649,1,1,null,0,35,174
+1703684818215,493,navigateToRecruitment-25,200,OK,Thread Group 1-1,text,true,,9193,1299,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,224,0,0
+1703684818215,224,navigateToRecruitment-25-0,302,Found,Thread Group 1-1,text,true,,1739,653,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule,224,0,0
+1703684818440,268,navigateToRecruitment-25-1,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,268,0,0
+1703684818709,255,navigateToRecruitment-26,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,255,0,0
+1703684818966,376,navigateToRecruitment-27,200,OK,Thread Group 1-1,text,true,,101754,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,217,0,0
+1703684819342,235,navigateToRecruitment-29,200,OK,Thread Group 1-1,text,true,,2534,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,235,0,0
+1703684819580,257,navigateToRecruitment-34,200,OK,Thread Group 1-1,text,true,,584,656,1,1,https://safebrowsing.googleapis.com/v4/fullHashes:find?%24ct=application%2Fx-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&%24httpMethod=POST&%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDT-hMaAhgGTHt8ZhouCAUQARoGCgTV13wmGgYKBBs5AogaBgoENXXsXRoGCgRXYFl3GgYKBF2F1UggAQ%3D%3D,257,0,174
+1703684819838,234,navigateToRecruitment-31,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,234,0,0
+1703684820073,281,navigateToRecruitment-30,200,OK,Thread Group 1-1,text,true,,8368,695,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates?limit=50&offset=0&model=list&sortField=candidate.dateOfApplication&sortOrder=DESC,281,0,0
+1703684820355,215,navigateToRecruitment-32,200,OK,Thread Group 1-1,text,true,,1391,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates/statuses,215,0,0
+1703684820571,242,navigateToRecruitment-33,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,242,0,0
+1703684820815,219,navigateToRecruitment-35,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,219,0,0
+1703684821035,240,navigateToRecruitment-36,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,240,0,0
+1703684821293,240,navigateToRecruitment-37,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,240,0,0
+1703684821534,236,navigateToRecruitment-38,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,236,0,0
+1703684821772,4390,navigateToVacancy,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,253772,8024,1,1,null,0,20,552
+1703684821774,727,navigateToVacan-39,200,OK,Thread Group 1-1,text,true,,639,501,1,1,https://spocs.getpocket.com/spocs,726,0,552
+1703684822502,460,navigateToVacancies-44,200,OK,Thread Group 1-1,text,true,,7304,657,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy,460,0,0
+1703684822963,436,navigateToVacancies-45,200,OK,Thread Group 1-1,text,true,,101754,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,213,0,0
+1703684823401,268,navigateToVacancies-47,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,268,0,0
+1703684823670,255,navigateToVacancies-49,200,OK,Thread Group 1-1,text,true,,2534,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,255,0,0
+1703684823927,261,navigateToVacancies-48,200,OK,Thread Group 1-1,text,true,,7132,682,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=50&offset=0&sortField=vacancy.name&sortOrder=ASC&model=detailed,260,0,0
+1703684824189,262,navigateToVacancies-50,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,262,0,0
+1703684824453,279,navigateToVacancies-51,200,OK,Thread Group 1-1,text,true,,7278,656,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy,279,0,0
+1703684824734,443,navigateToVacancies-52,200,OK,Thread Group 1-1,text,true,,101746,553,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,220,0,0
+1703684825179,247,navigateToVacancies-54,200,OK,Thread Group 1-1,text,true,,3560,619,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,247,0,0
+1703684825427,239,navigateToVacancies-55,200,OK,Thread Group 1-1,text,true,,5859,614,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,239,0,0
+1703684825667,276,navigateToVacancies-57,200,OK,Thread Group 1-1,text,true,,6961,643,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=R&includeEmployees=onlyCurrent,276,0,0
+1703684825944,237,navigateToVacancies-58,200,OK,Thread Group 1-1,text,true,,1693,644,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=Ri&includeEmployees=onlyCurrent,237,0,0
+1703684826185,1854,saveVacancy,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,123429,4349,1,1,null,0,2782,0
+1703684828876,240,saveVacancy-59,200,OK,Thread Group 1-1,text,true,,1361,774,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies,239,0,0
+1703684829201,258,saveVacancy-60,200,OK,Thread Group 1-1,text,true,,8320,658,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/23,258,0,0
+1703684829460,422,saveVacancy-61,200,OK,Thread Group 1-1,text,true,,101754,556,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,203,0,0
+1703684829883,236,saveVacancy-63,200,OK,Thread Group 1-1,text,true,,1361,555,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/23,236,0,0
+1703684830121,245,saveVacancy-64,200,OK,Thread Group 1-1,text,true,,5859,617,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,243,0,0
+1703684830367,228,saveVacancy-65,200,OK,Thread Group 1-1,text,true,,3675,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,228,0,0
+1703684830596,225,saveVacancy-66,200,OK,Thread Group 1-1,text,true,,1099,567,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/23/attachments,225,0,0
+1703684830822,3532,navigateToRecruitment ,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,145362,8649,1,1,null,0,17,0
+1703684830822,522,navigateToRecruitment-25,200,OK,Thread Group 1-1,text,true,,9193,1299,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,238,0,0
+1703684830822,238,navigateToRecruitment-25-0,302,Found,Thread Group 1-1,text,true,,1739,653,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule,238,0,0
+1703684831061,283,navigateToRecruitment-25-1,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,282,0,0
+1703684831344,284,navigateToRecruitment-26,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,284,0,0
+1703684831629,436,navigateToRecruitment-27,200,OK,Thread Group 1-1,text,true,,101754,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,217,0,0
+1703684832066,243,navigateToRecruitment-29,200,OK,Thread Group 1-1,text,true,,2596,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,243,0,0
+1703684832310,81,navigateToRecruitment-34,200,OK,Thread Group 1-1,text,true,,584,656,1,1,https://safebrowsing.googleapis.com/v4/fullHashes:find?%24ct=application%2Fx-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&%24httpMethod=POST&%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDT-hMaAhgGTHt8ZhouCAUQARoGCgTV13wmGgYKBBs5AogaBgoENXXsXRoGCgRXYFl3GgYKBF2F1UggAQ%3D%3D,81,0,0
+1703684832391,241,navigateToRecruitment-31,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,241,0,0
+1703684832633,300,navigateToRecruitment-30,200,OK,Thread Group 1-1,text,true,,8368,695,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates?limit=50&offset=0&model=list&sortField=candidate.dateOfApplication&sortOrder=DESC,299,0,0
+1703684832933,237,navigateToRecruitment-32,200,OK,Thread Group 1-1,text,true,,1391,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates/statuses,236,0,0
+1703684833171,245,navigateToRecruitment-33,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,245,0,0
+1703684833417,236,navigateToRecruitment-35,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,236,0,0
+1703684833655,233,navigateToRecruitment-36,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,233,0,0
+1703684833892,234,navigateToRecruitment-37,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,234,0,0
+1703684834130,240,navigateToRecruitment-38,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,240,0,0
+1703684834375,3462,navigateToVacancy,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,254230,8024,1,1,null,0,11,0
+1703684834376,173,navigateToVacan-39,200,OK,Thread Group 1-1,text,true,,639,501,1,1,https://spocs.getpocket.com/spocs,173,0,0
+1703684834551,263,navigateToVacancies-44,200,OK,Thread Group 1-1,text,true,,7304,657,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy,263,0,0
+1703684834814,427,navigateToVacancies-45,200,OK,Thread Group 1-1,text,true,,101754,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,208,0,0
+1703684835243,242,navigateToVacancies-47,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,242,0,0
+1703684835486,225,navigateToVacancies-49,200,OK,Thread Group 1-1,text,true,,2596,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,225,0,0
+1703684835712,257,navigateToVacancies-48,200,OK,Thread Group 1-1,text,true,,7405,682,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=50&offset=0&sortField=vacancy.name&sortOrder=ASC&model=detailed,257,0,0
+1703684835970,249,navigateToVacancies-50,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,249,0,0
+1703684836219,267,navigateToVacancies-51,200,OK,Thread Group 1-1,text,true,,7278,656,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy,267,0,0
+1703684836487,383,navigateToVacancies-52,200,OK,Thread Group 1-1,text,true,,101754,553,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,222,0,0
+1703684836871,233,navigateToVacancies-54,200,OK,Thread Group 1-1,text,true,,3675,619,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,233,0,0
+1703684837104,231,navigateToVacancies-55,200,OK,Thread Group 1-1,text,true,,5859,614,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,231,0,0
+1703684837336,277,navigateToVacancies-57,200,OK,Thread Group 1-1,text,true,,6961,643,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=R&includeEmployees=onlyCurrent,277,0,0
+1703684837613,235,navigateToVacancies-58,200,OK,Thread Group 1-1,text,true,,1693,644,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=Ri&includeEmployees=onlyCurrent,235,0,0
+1703684837849,1929,saveVacancy,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,123560,4357,1,1,null,0,2621,0
+1703684840465,259,saveVacancy-59,200,OK,Thread Group 1-1,text,true,,1369,782,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies,259,0,0
+1703684840726,258,saveVacancy-60,200,OK,Thread Group 1-1,text,true,,8320,658,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/24,258,0,0
+1703684840985,434,saveVacancy-61,200,OK,Thread Group 1-1,text,true,,101746,556,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,210,0,0
+1703684841419,271,saveVacancy-63,200,OK,Thread Group 1-1,text,true,,1369,555,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/24,271,0,0
+1703684841691,245,saveVacancy-64,200,OK,Thread Group 1-1,text,true,,5859,617,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,245,0,0
+1703684841936,239,saveVacancy-65,200,OK,Thread Group 1-1,text,true,,3798,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,239,0,0
+1703684842176,223,saveVacancy-66,200,OK,Thread Group 1-1,text,true,,1099,567,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/24/attachments,223,0,0
+1703684842400,3556,navigateToRecruitment ,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,145420,8649,1,1,null,0,20,0
+1703684842400,558,navigateToRecruitment-25,200,OK,Thread Group 1-1,text,true,,9193,1299,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,288,0,0
+1703684842400,288,navigateToRecruitment-25-0,302,Found,Thread Group 1-1,text,true,,1739,653,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule,288,0,0
+1703684842688,270,navigateToRecruitment-25-1,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,270,0,0
+1703684842961,274,navigateToRecruitment-26,200,OK,Thread Group 1-1,text,true,,7454,646,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates,274,0,0
+1703684843236,422,navigateToRecruitment-27,200,OK,Thread Group 1-1,text,true,,101746,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,214,0,0
+1703684843658,227,navigateToRecruitment-29,200,OK,Thread Group 1-1,text,true,,2662,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,226,0,0
+1703684843885,78,navigateToRecruitment-34,200,OK,Thread Group 1-1,text,true,,584,656,1,1,https://safebrowsing.googleapis.com/v4/fullHashes:find?%24ct=application%2Fx-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&%24httpMethod=POST&%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDT-hMaAhgGTHt8ZhouCAUQARoGCgTV13wmGgYKBBs5AogaBgoENXXsXRoGCgRXYFl3GgYKBF2F1UggAQ%3D%3D,78,0,0
+1703684843964,243,navigateToRecruitment-31,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,243,0,0
+1703684844211,308,navigateToRecruitment-30,200,OK,Thread Group 1-1,text,true,,8368,695,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates?limit=50&offset=0&model=list&sortField=candidate.dateOfApplication&sortOrder=DESC,308,0,0
+1703684844520,242,navigateToRecruitment-32,200,OK,Thread Group 1-1,text,true,,1391,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates/statuses,242,0,0
+1703684844762,254,navigateToRecruitment-33,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,254,0,0
+1703684845017,231,navigateToRecruitment-35,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,231,0,0
+1703684845249,224,navigateToRecruitment-36,200,OK,Thread Group 1-1,text,true,,1131,557,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed,224,0,0
+1703684845475,256,navigateToRecruitment-37,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,256,0,0
+1703684845735,239,navigateToRecruitment-38,200,OK,Thread Group 1-1,text,true,,2224,581,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2023-01-01&toDate=2023-12-31,239,0,0
+1703684845978,3690,navigateToVacancy,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,254684,8024,1,1,null,0,10,0
+1703684845979,170,navigateToVacan-39,200,OK,Thread Group 1-1,text,true,,639,501,1,1,https://spocs.getpocket.com/spocs,170,0,0
+1703684846150,255,navigateToVacancies-44,200,OK,Thread Group 1-1,text,true,,7304,657,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy,255,0,0
+1703684846406,421,navigateToVacancies-45,200,OK,Thread Group 1-1,text,true,,101746,554,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,202,0,0
+1703684846829,236,navigateToVacancies-47,200,OK,Thread Group 1-1,text,true,,5859,615,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,236,0,0
+1703684847066,229,navigateToVacancies-49,200,OK,Thread Group 1-1,text,true,,2662,660,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?model=summary&limit=0&excludeInterviewers=false,229,0,0
+1703684847295,311,navigateToVacancies-48,200,OK,Thread Group 1-1,text,true,,7686,682,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=50&offset=0&sortField=vacancy.name&sortOrder=ASC&model=detailed,311,0,0
+1703684847607,298,navigateToVacancies-50,200,OK,Thread Group 1-1,text,true,,1453,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/hiring-managers?limit=0,298,0,0
+1703684847905,339,navigateToVacancies-51,200,OK,Thread Group 1-1,text,true,,7278,656,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy,339,0,0
+1703684848244,442,navigateToVacancies-52,200,OK,Thread Group 1-1,text,true,,101746,553,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,226,0,0
+1703684848686,236,navigateToVacancies-54,200,OK,Thread Group 1-1,text,true,,3798,619,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,236,0,0
+1703684848923,227,navigateToVacancies-55,200,OK,Thread Group 1-1,text,true,,5859,614,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,227,0,0
+1703684849151,276,navigateToVacancies-57,200,OK,Thread Group 1-1,text,true,,6961,643,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=R&includeEmployees=onlyCurrent,276,0,0
+1703684849428,250,navigateToVacancies-58,200,OK,Thread Group 1-1,text,true,,1693,644,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=Ri&includeEmployees=onlyCurrent,250,0,0
+1703684849679,2013,saveVacancy,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,123655,4345,1,1,null,0,1241,0
+1703684850912,262,saveVacancy-59,200,OK,Thread Group 1-1,text,true,,1357,770,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies,262,0,0
+1703684851177,314,saveVacancy-60,200,OK,Thread Group 1-1,text,true,,8320,658,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/25,314,0,0
+1703684851493,488,saveVacancy-61,200,OK,Thread Group 1-1,text,true,,101754,556,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,278,0,0
+1703684851982,247,saveVacancy-63,200,OK,Thread Group 1-1,text,true,,1357,555,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/25,247,0,0
+1703684852230,237,saveVacancy-64,200,OK,Thread Group 1-1,text,true,,5859,617,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0,237,0,0
+1703684852468,234,saveVacancy-65,200,OK,Thread Group 1-1,text,true,,3909,622,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies?limit=0,234,0,0
+1703684852703,231,saveVacancy-66,200,OK,Thread Group 1-1,text,true,,1099,567,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/vacancies/25/attachments,230,0,0
+1703684852975,1462,logOut,200,"Number of samples in transaction : 3, number of failing samples : 0",tearDown Thread Group 1-1,,true,,112447,2416,1,1,null,0,15,330
+1703684852976,753,logOut-67,200,OK,tearDown Thread Group 1-1,text,true,,6256,1235,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,525,0,330
+1703684852976,525,logOut-67-0,302,Found,tearDown Thread Group 1-1,text,true,,1761,592,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout,525,0,330
+1703684853502,227,logOut-67-1,200,OK,tearDown Thread Group 1-1,text,true,,4495,643,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,226,0,0
+1703684853730,232,logOut-68,200,OK,tearDown Thread Group 1-1,text,true,,4492,643,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,232,0,0
+1703684853962,477,logOut-69,200,OK,tearDown Thread Group 1-1,text,true,,101699,538,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages,280,0,0

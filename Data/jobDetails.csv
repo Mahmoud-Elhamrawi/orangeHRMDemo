@@ -1,0 +1,4 @@
+name,jobTitleId,employeeId,numOfPositions,description
+manual Qc,30,7,24,manual tester QC
+automation QC,30,7,24,automation tester Qc
+lead QC,30,7,24,lead tester Qc
